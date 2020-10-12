@@ -39,7 +39,9 @@
     font-style:normal
     }
     
-    /*! normalize.css v3.0.2 | MIT License | git.io/normalize */html {
+    /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+    
+    html {
     font-family:sans-serif;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%
@@ -750,10 +752,18 @@
     .intro--banner h1   {
     position:relative;
     font-size:68px;
-    font-weight:900;
+    font-weight:600;
     line-height:1;
     z-index:1
     }
+
+    .intro--banner h2   {
+        position:relative;
+        font-size:28px;
+        font-weight:200;
+        line-height:1;
+        z-index:1
+        }
     
     .intro--banner button    {
     position:relative;
@@ -1971,5 +1981,3 @@
     -webkit-transition-delay:.16s;
     transition-delay:.16s
     }
-    
-
