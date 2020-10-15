@@ -154,9 +154,9 @@
     overflow:visible
     }
     
-    button,select  {
+    /* button,select  {
     text-transform:none
-    }
+    } */
     
     button,html input[type="button"],input[type="reset"],input[type="submit"]    {
     -webkit-appearance:button;
@@ -568,7 +568,7 @@
     transform:translate(-50%, -50%);
     padding:0 20px;
     line-height:30px;
-    text-decoration:none;
+    /* text-decoration:none; */
     color:#fff;
     font-weight:700;
     text-transform:uppercase;
